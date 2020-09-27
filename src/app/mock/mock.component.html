@@ -1,0 +1,6 @@
+<p>{{title ||  'waiting title'}}</p>
+<p>{{age ||  'waiting age'}}</p>
+<input type="text" [(ngModel)]="title">
+<button (click)="func.emit(title)">
+  Click me
+</button>
